@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+
+nav {
+  background-color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_logo {
+  width: 200px;
+}
+
+nav img {
+  width: 100%;
+  position: relative;
+  left: 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row no-wrap;
+  position: relative;
+  right: 50px;
+}
+
+li {
+  margin: 10px;
+}
